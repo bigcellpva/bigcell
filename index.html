@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Big Cell - Assistência técnica especializada, venda de celulares novos e seminovos e acessórios com garantia.">
+  <meta name="keywords" content="assistência técnica celular, conserto de celular, loja de celular, acessórios, troca de tela">
+  <title>Big Cell - Assistência Técnica e Acessórios</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+<!-- BOTÃO WHATSAPP -->
+<a href="https://wa.me/5566996105088" target="_blank" class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 z-50">
+  💬
+</a>
+
+<!-- NAVBAR -->
+<header class="bg-black text-white sticky top-0 z-40">
+  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+    <h1 class="text-xl font-bold">Big Cell</h1>
+    <nav class="space-x-6 hidden md:block">
+      <a href="#home" class="hover:text-green-400">Apresentação</a>
+      <a href="#servicos" class="hover:text-green-400">Serviços</a>
+      <a href="#produtos" class="hover:text-green-400">Produtos</a>
+      <a href="#localizacao" class="hover:text-green-400">Endereço</a>
+      <a href="#contato" class="hover:text-green-400">Contato</a>
+    </nav>
+  </div>
+</header>
+
+<!-- APRESENTAÇÃO -->
+<section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-black to-gray-700 text-white">
+  <div class="text-center max-w-2xl px-4">
+    <h2 class="text-4xl font-bold mb-4">Seu celular quebrou? A Big Cell resolve!</h2>
+    <p class="mb-6 text-lg">Assistência técnica especializada, venda de celulares novos e seminovos e acessórios premium com garantia.</p>
+    <a href="https://wa.me/5566996105088" target="_blank" class="bg-green-500 px-6 py-3 rounded-2xl font-semibold hover:bg-green-600">Chamar no WhatsApp</a>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section id="servicos" class="py-16 max-w-6xl mx-auto px-4">
+  <h2 class="text-3xl font-bold text-center mb-10">Nossos Serviços</h2>
+  <div class="grid md:grid-cols-3 gap-8">
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <h3 class="text-xl font-semibold mb-2">Troca de Tela</h3>
+      <p>Substituição rápida com peças de qualidade e garantia.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <h3 class="text-xl font-semibold mb-2">Troca de Bateria</h3>
+      <p>Recupere a autonomia do seu aparelho com bateria nova.</p>
+    </div>
+    <div class="bg-white p-6 rounded-2xl shadow">
+      <h3 class="text-xl font-semibold mb-2">Reparo Completo</h3>
+      <p>Diagnóstico técnico e manutenção especializada.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUTOS -->
+<section id="produtos" class="bg-gray-100 py-16">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-10">Celulares e Acessórios</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="font-semibold text-lg">Celulares Novos</h3>
+        <p>Aparelhos lacrados com garantia.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="font-semibold text-lg">Seminovos Revisados</h3>
+        <p>Qualidade testada e preço acessível.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="font-semibold text-lg">Acessórios Premium</h3>
+        <p>Capinhas, películas, carregadores e fones.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCALIZAÇÃO -->
+<section id="localizacao" class="py-16">
+  <div class="max-w-4xl mx-auto text-center px-4">
+    <h2 class="text-3xl font-bold mb-6">Nosso Endereço</h2>
+    <p class="text-lg mb-2">📍 Av. Carnaúba, 947 - Buritis III</p>
+    <p class="text-lg mb-6">📞 (66) 99610-5088</p>
+    <iframe class="w-full h-80 rounded-2xl" src="https://maps.google.com/maps?q=Sao%20Paulo&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="bg-gray-100 py-16">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-center mb-10">Entre em Contato</h2>
+    <form action="https://formsubmit.co/bigcellpva@gmail.com" method="POST" class="bg-white p-8 rounded-2xl shadow space-y-4">
+      <input type="text" name="nome" placeholder="Nome" class="w-full border p-3 rounded-lg" required>
+      <input type="email" name="email" placeholder="E-mail" class="w-full border p-3 rounded-lg" required>
+      <input type="tel" name="telefone" placeholder="Telefone" class="w-full border p-3 rounded-lg" required>
+      <textarea name="mensagem" placeholder="Mensagem" class="w-full border p-3 rounded-lg" rows="4"></textarea>
+      <button type="submit" class="w-full bg-black text-white py-3 rounded-xl hover:bg-gray-800">Enviar Mensagem</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-black text-white text-center p-6">
+  <p>© 2026 Big Cell - Assistência Técnica e Acessórios</p>
+  <p class="text-sm text-gray-400">Atendimento rápido • Garantia • Confiança</p>
+</footer>
+
+</body>
+</html>
